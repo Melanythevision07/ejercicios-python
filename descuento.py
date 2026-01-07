@@ -13,5 +13,5 @@ else:
     total = compra
     
 #formato
-total_formato = f"${:,.0f}" .replace(",",".")
+total_formato = f"${total:,.0f}" .replace(",",".")
 print ("precio final:", total_formato)
